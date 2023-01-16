@@ -2,4 +2,4 @@
 This is my langing page assignment for The Odin Project.
 
 ## Goals:
-- [] Meet Layout of Outcome Photos
+- [ ] Meet Layout of Outcome Photos
