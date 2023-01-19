@@ -39,6 +39,7 @@ li a {
     color: white;
     background: #18212c;
     display: flex;
+    align-items: center;
     padding: 10px;
     width: 100%;
 }
@@ -53,20 +54,24 @@ li a {
 }
 
 .hero-right {
-    width: 50%;
+    width: calc(50% - 10px);
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 10px;
 }
 
 .page {
+    background-color: #18212c;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
 
 .hero-image {
     padding: 10px;
+    margin: 10px;
     width:100%;
 }
 
@@ -77,12 +82,40 @@ li a {
 }
 
 .content-wrapper {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .page {
     background-color: #18212c;
     margin: 0;
     padding: 0;
+}
+
+.button {
+    width: auto;
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.button-container {
+    width: auto;
+    text-align: left;
+}
+
+.hero-image-container {
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
 }
