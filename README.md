@@ -9,3 +9,4 @@ By creating a landing page, I am able to develop important skills such as using 
 ## Goals:
 - [x] Create Basic Layout
 - [x] Create Basic Style
+- [ ] Optimize for Mobile, Tablets & Desktop Simultaneously
