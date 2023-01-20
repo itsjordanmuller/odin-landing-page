@@ -8,10 +8,12 @@ body {
 
 body > * {
     padding: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 header h1 {
-    font-size: 20px;
+    font-size: 28px;
 }
 
 header, .hero {
@@ -37,7 +39,7 @@ header ul {
 
 header li {
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin-left: 10px;
 }
 
@@ -49,16 +51,29 @@ header li {
 
 .hero div {
     margin: auto;
+    flex: 1;
 }
 
 .hero-left > * {
     text-align: left;
 }
 
+.hero-left h2 {
+    font-size: 32px;
+}
+
+.hero-left p {
+    font-size: 24px;
+}
+
 .button {
     background-color: gray;
     padding: 10px;
     border-radius: 12px;
+}
+
+.hero-right {
+    text-align: center;
 }
 
 .hero-right img {
@@ -84,8 +99,8 @@ header li {
 }
 
 .image img{
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     padding: 0px;
     margin: 10px;
 }
