@@ -62,7 +62,7 @@ header li {
 }
 
 .hero-right img {
-    height: 250px;
+    height: 450px;
     width: auto;
     margin: auto;
 }
@@ -84,8 +84,8 @@ header li {
 }
 
 .image img{
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 350px;
     padding: 0px;
     margin: 10px;
 }
