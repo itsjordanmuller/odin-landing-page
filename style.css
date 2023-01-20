@@ -36,6 +36,10 @@ li a {
     font-size: 18px;
 }
 
+h2 {
+    padding-top: 15px;
+}
+
 .hero-row {
     color: white;
     background: #18212c;
