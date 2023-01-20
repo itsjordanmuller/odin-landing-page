@@ -32,7 +32,7 @@ li a {
     text-transform: uppercase;
     font-weight: bold;
     color: white;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .hero-row {
@@ -82,8 +82,8 @@ li a {
 }
 
 .content-wrapper {
-    width: 100%;
-    margin: 0;
+    width: 80%;
+    margin: auto;
     padding: 0;
 }
 
