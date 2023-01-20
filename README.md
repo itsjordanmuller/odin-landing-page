@@ -7,4 +7,5 @@ I am creating a landing page because it serves as a foundation for building a we
 By creating a landing page, I am able to develop important skills such as using HTML for structure and CSS for styling, as well as understanding the principles of design and user experience. This will help me to create more effective and user-friendly websites in the future.
 
 ## Goals:
-- [ ] Meet Layout of Outcome Photos
+- [x] Create Basic Layout
+- [x] Create Basic Style
