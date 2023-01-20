@@ -8,58 +8,58 @@
     <title>Jordan's Odin' Landing Page</title>
 </head>
 <body>
-    <div class="page">
-        <div class="content-wrapper">
-            <div class="header">
-                <div class="logo">Header Logo</div>
-                    <div class="nav">
-                        <ul>
-                            <li><a href="https://github.com/itsjordanmuller/">GitHub Profile</a></li>
-                            <li><a href="https://github.com/itsjordanmuller?tab=repositories">Repositories</a></li>
-                            <li><a href="https://github.com/itsjordanmuller/odin-landing-page">This Project's Repo</a></li>
-                        </ul>
-                    </div>
-            </div>
-            <div class="hero-row">
-                <div class="hero-left">
-                    <div class="hero-header"><h1>This website is awesome</h1></div>
-                    <div class="hero-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</div>
-                    <div class="button-container">
-                        <a href="https://github.com/itsjordanmuller/" class="button">Sign Up</a>
-                    </div>
-                </div>
-                <div class="hero-right">
-                    <div class="hero-image-container">
-                        <div class="hero-image"><img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80"></img></div>
-                    </div>
-                </div>
-            </div>
+    <header class="header">
+        <h1>Odin Landing Page</h1>
+        <nav><ul>
+                <li><a href="https://github.com/itsjordanmuller/">GitHub Profile</a></li>
+                <li><a href="https://github.com/itsjordanmuller?tab=repositories">Repositories</a></li>
+                <li><a href="https://github.com/itsjordanmuller/odin-landing-page">This Project's Repo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-left">
+            <h2>This is an awesome website</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a class="button" href="https://github.com/itsjordanmuller/">Sign Up</a>
         </div>
-        <div class="photo-section">
-            <div class="section-header">
-              <h2>Featured Photos</h2>
-            </div>
-            <div class="photo-grid">
-              <div class="photo-grid-item">
-                <img src="./images/image1.jpg" alt="Image 1">
-                <div class="caption">Caption for Image 1</div>
-              </div>
-              <div class="photo-grid-item">
-                <img src="./images/image2.jpg" alt="Image 2">
-                <div class="caption">Caption for Image 2</div>
-              </div>
-              <div class="photo-grid-item">
-                <img src="./images/image3.jpg" alt="Image 3">
-                <div class="caption">Caption for Image 3</div>
-              </div>
-              <div class="photo-grid-item">
-                <img src="./images/image4.jpg" alt="Image 4">
-                <div class="caption">Caption for Image 4</div>
-              </div>
-            </div>
+        <div class="hero-right">
+            <img src="./images/image4.jpg" alt="Image 2">
         </div>
-        <div class="quote-section">
+    </section>
+    <section class="photos-header">
+        <h2>Some photos.</h2>
+    </section>
+    <section class="photos">
+        <div class="image">
+            <img src="./images/image1.jpg" alt="Image 1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         </div>
-    </div>
+        <div class="image">
+            <img src="./images/image2.jpg" alt="Image 2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <div class="image">
+            <img src="./images/image3.jpg" alt="Image 3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <div class="image">
+            <img src="./images/image4.jpg" alt="Image 4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+    </section>
+    <section class="quote">
+        <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed leo pretium, imperdiet tortor id, dapibus nulla. Quisque erat mauris, ullamcorper sit amet nulla vitae, commodo aliquet orci. Maecenas euismod sagittis risus nec maximus. Morbi tincidunt elementum enim, ac mollis nunc interdum quis. Cras eu est elementum, sollicitudin magna a, bibendum quam.</blockquote>
+    </section>
+    <section class="banner">
+        <div class="pop-out-text">
+            <h2>Call to action! It's time!</h2>
+            <p>Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <div class="pop-out-signup">
+            <a class="button" href="https://github.com/itsjordanmuller/">Sign Up</a>
+        </div>
+    </section>
+    <footer class="footer">Copyright 2023 The Odin Project</footer>
 </body>
 </html>
