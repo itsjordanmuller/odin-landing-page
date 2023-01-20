@@ -52,6 +52,7 @@ header li {
 .hero div {
     margin: auto;
     flex: 1;
+    padding: 20px;
 }
 
 .hero-left > * {
@@ -59,11 +60,11 @@ header li {
 }
 
 .hero-left h2 {
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .hero-left p {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .button {
@@ -77,8 +78,8 @@ header li {
 }
 
 .hero-right img {
-    height: 450px;
-    width: auto;
+    height: 40vw;
+    width: 40vw;
     margin: auto;
 }
 
@@ -99,8 +100,8 @@ header li {
 }
 
 .image img{
-    width: 250px;
-    height: 250px;
+    width: 20vw;
+    height: 20vw;
     padding: 0px;
     margin: 10px;
 }
@@ -114,6 +115,11 @@ header li {
     font-style: italic;
 }
 
+.quote p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .banner {
     display: flex;
     flex-direction: row;
@@ -125,9 +131,12 @@ header li {
 
 .pop-out-signup {
     margin: auto;
+    width: 40vw;
+    padding: 20px;
 }
 
 footer {
     background-color: #18212c;
     color: white;
+    text-align: center;
 }
